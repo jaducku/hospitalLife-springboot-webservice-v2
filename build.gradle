@@ -4,7 +4,7 @@ plugins { // (1)
     id 'java'
 }
 
-group 'com.jaducku.hosp'
+group 'com.pnet.hospitallife'
 version '1.0.4-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
 sourceCompatibility = 1.8
 
@@ -34,7 +34,7 @@ dependencies {
     implementation('com.h2database:h2')
 
     // OAuth
-    implementation('org.springframework.boot:spring-boot-starter-oauth2-client')
+    //implementation('org.springframework.boot:spring-boot-starter-oauth2-client')
 
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
